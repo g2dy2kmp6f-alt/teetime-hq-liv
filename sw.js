@@ -1,4 +1,4 @@
-const BUILD="2026.10.22.72";
+const BUILD="2026.10.22.73";
 const CACHE=`teetime-hq-${BUILD}`;
 const CORE=["./","./index.html","./manifest.webmanifest","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./teetimehq-logo.png"];
 
