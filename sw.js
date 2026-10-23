@@ -1,4 +1,4 @@
-const BUILD="2026.10.22.87";
+const BUILD="2026.10.22.88";
 const CACHE=`teetime-hq-${BUILD}`;
 const CORE=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./apple-touch-icon.png","./teetimehq-logo.png"];
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE).catch(()=>{})))});
